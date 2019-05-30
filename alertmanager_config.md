@@ -4,9 +4,10 @@
 
 | format                      | default value | description   |
 | :----------                 | ------------- | ------------- |
-| resolve_timeout: \<duration> | 5m            | ResolveTimeout is the time after which an alert is declared resolved <br> if it has not been updated. | 
+| resolve_timeout: \<duration> | 5m            | ResolveTimeout is the time after which an alert is declared resolved <br> if it has not been updated.|
 
 SMTP
+
 | format                      | default value | description   |
 | :----------                 | ------------- | ------------- |
 | smtp_from: \<tmpl_string>   |     | The default SMTP From header field.|
@@ -19,6 +20,7 @@ SMTP
 | smtp_require_tls: <bool>    | true          | The default SMTP TLS requirement. |
 
 Slack
+
 | format                      | default value | description   |
 | :----------                 | ------------- | ------------- |
 | slack_api_url: \<secret>    | | |
@@ -34,6 +36,7 @@ Slack
 | wechat_api_corp_id: \<string> | | |
 
 HTTP cofiguration
+
 | format                      | default value | description   |
 | :----------                 | ------------- | ------------- |
 | http_config: \<http_config> | | |
