@@ -12,11 +12,11 @@ h3. 実行オプション
 * ストレージ関連
 
 |_. option name |_. default |_. description |
-| \--storage.tsdb.path | data | storage path |
-| \--storage.tsdb.retention.time | 15d | data retention time |
-| \--storage.tsdb.min-block-durationi | 2h | データを取得してから圧縮を開始するまでの宰相時間 |
-| \--storage.tsdb.max-block-duration | データ保存期間の10% | データを取得してから圧縮を開始するまでの最大時間 |
-| \--storage.tsdb.no-lockfile | | データ保存先ディレクトリにロックファイルを作らない |
+| --storage.tsdb.path | data | strage path |
+| --storage.tsdb.retention.time | 15d | データの保存期間 |
+| --storage.tsdb.min-block-durationi | 2h | データを取得してから圧縮を開始するまでの宰相時間 |
+| --storage.tsdb.max-block-duration | データ保存期間の10% | データを取得してから圧縮を開始するまでの最大時間 |
+| --storage.tsdb.no-lockfile | | データ保存先ディレクトリにロックファイルを作らない |
 
 * link
 https://knowledge.sakura.ad.jp/12057/
