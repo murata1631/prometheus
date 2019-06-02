@@ -1,0 +1,30 @@
+{{toc}}
+
+h2. prometheus
+
+h3. 実行オプション
+
+* 確認方法
+<pre>
+# ./prometheus -h
+<pre>
+
+* ストレージ関連
+|_. option name |_. default |_. description |
+| --storage.tsdb.path | ./data | データの保存先 | 
+| --storage.tsdb.retention | 15d | データの保存期間 | 
+| --storage.tsdb.min-block-durationi | 2h | データを取得してから圧縮を開始するまでの宰相時間 | 
+| -storage.tsdb.max-block-duration | データ保存期間の10% | データを取得してから圧縮を開始するまでの最大時間 |
+| --storage.tsdb.no-lockfile | | データ保存先ディレクトリにロックファイルを作らない |
+
+* link
+https://knowledge.sakura.ad.jp/12057/
+
+h3. alert.rules
+
+h4. ラベルの書き方
+
+* 例
+<pre>
+
+
