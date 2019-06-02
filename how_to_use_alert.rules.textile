@@ -7,7 +7,7 @@ h3. 実行オプション
 * 確認方法
 <pre>
 # ./prometheus -h
-<pre>
+</pre>
 
 * ストレージ関連
 |_. option name |_. default |_. description |
