@@ -10,6 +10,7 @@ h3. 実行オプション
 </pre>
 
 * ストレージ関連
+
 |_. option name |_. default |_. description |
 | --storage.tsdb.path | ./data | データの保存先 | 
 | --storage.tsdb.retention | 15d | データの保存期間 | 
