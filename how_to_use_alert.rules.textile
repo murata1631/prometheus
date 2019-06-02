@@ -12,7 +12,7 @@ h3. 実行オプション
 * ストレージ関連
 
 |_. option name |_. default |_. description |
-| --storage.tsdb.path | ./data | データの保存先 | 
+| --storage.tsdb.path | data | データの保存先 | 
 | --storage.tsdb.retention | 15d | データの保存期間 | 
 | --storage.tsdb.min-block-durationi | 2h | データを取得してから圧縮を開始するまでの宰相時間 | 
 | -storage.tsdb.max-block-duration | データ保存期間の10% | データを取得してから圧縮を開始するまでの最大時間 |
